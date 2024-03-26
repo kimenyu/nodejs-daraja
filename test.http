@@ -2,7 +2,7 @@ POST http://localhost:3000/api/stkPush
 Content-Type: application/json
 
 {
-    "phone": "0793058968",
+    "phone": "254793058968",
     "amount": 1,
     "ORDER_ID": "123456"
 }
