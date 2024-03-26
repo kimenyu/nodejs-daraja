@@ -1,4 +1,4 @@
-POST http://localhost:3000/api/stkPush
+POST https://nodejs-daraja.onrender.com/api/stkPush
 Content-Type: application/json
 
 {
