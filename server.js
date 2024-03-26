@@ -56,7 +56,7 @@ router.post('/lipa', async (req, res) => {
         PartyA: req.body.phone, // Customer's phone number
         PartyB: process.env.BUSINESS_SHORT_CODE,
         PhoneNumber: req.body.phone,
-        CallBackURL: 'YOUR_CALLBACK_URL',
+        CallBackURL: 'https://nodejs-daraja.onrender.com/payment-callback',
         AccountReference: 'test',
         TransactionDesc: 'Payment for Apartment',
       };
